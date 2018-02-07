@@ -17,43 +17,79 @@ public class ArrayStringQueue implements StringQueueADT{
 		count = 0;
 		front = 0;
 	}
+	public void expandCapacity() {
+		String[] newCapacity = new String[queue.length*2];
+	
+		for(int i = front; i<(front + count); i++) 
+			newCapacity[i] = queue[i];
+			queue = newCapacity;
+		
+	}
 
 	@Override
 	public void enqueue(String element) {
-		// TODO Auto-generated method stub
+		if (count < queue.length) {
+			queue[front + count] = element;
+			count++;
+		} else {
+			expandCapacity();
+		}
 		
 	}
 
 	@Override
 	public String dequeue() {
-		// TODO Auto-generated method stub
-		return null;
+		if (queue[front] != null) {
+			String result = queue[front];
+			queue[front] = null;
+			count--;
+			front++;
+			return result;
+		} else {
+			throw new IllegalStateException("Queue is empty");
+		}
 	}
 
 	@Override
 	public String first() {
-		// TODO Auto-generated method stub
-		return null;
+		if (queue[front] != null) {
+			return queue[front];
+		} else {
+			throw new IllegalStateException("Queue is empty");
+		}
+
 	}
 
 	@Override
 	public int indexOf(String element) {
-		// TODO Auto-generated method stub
-		return 0;
+		for (int i = front; i < (front + count); i++)
+			if (queue[i].equals(element))
+				return i;
+		return -1;
 	}
 
 	@Override
 	public boolean isEmpty() {
-		// TODO Auto-generated method stub
-		return false;
+		if (queue[front] == null) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	@Override
 	public int size() {
-		// TODO Auto-generated method stub
-		return 0;
+		return count;
 	}
-	
+	public String toString() {
+		String result = "{";
+		
+		for(int i=front;i<(front+count);i++) 
+			result += queue[i] + ", ";
+		
+		return result + "}";
+	}
+
 	
 
 }
