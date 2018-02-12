@@ -35,7 +35,7 @@ public class BoundedArrayQueue<T> implements QueueADT<T> {
 
 	@Override
 	public int indexOf(T element) {
-		for(int i = 0; i < queue.length;i++)
+		for(int i = front, x = 0; x < count; i = (i+1) % queue.length, x++ )
 			if(queue[i].equals(element))
 				return i;
 		return -1;
@@ -60,6 +60,16 @@ public class BoundedArrayQueue<T> implements QueueADT<T> {
 	@Override
 	public int size() {
 		return count;
+	}
+	
+	@Override
+	public String toString() {
+		String result = "{";
+		
+		for(int i = front, x = 0; x < count; i = (i+1) % queue.length, x++ )
+			result += queue[i].toString() + ", ";
+		
+		return result + "}";
 	}
 
 }
