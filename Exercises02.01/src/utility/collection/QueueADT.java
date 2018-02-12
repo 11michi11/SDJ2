@@ -14,5 +14,7 @@ public interface QueueADT<T> {
 	
 	public int size();
 	
+	public T first();
+	
 
 }

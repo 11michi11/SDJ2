@@ -89,4 +89,10 @@ public class ArrayQueue<T> implements QueueADT<T> {
 		queue = expanded;
 	}
 
+	@Override
+	public T first() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
