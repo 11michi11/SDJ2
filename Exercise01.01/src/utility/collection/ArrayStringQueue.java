@@ -1,29 +1,22 @@
 package utility.collection;
 
-public class ArrayStringQueue implements StringQueueADT{
-	
+public class ArrayStringQueue implements StringQueueADT {
+
 	private static final int DEAFAUL_CAPACITY = 100;
 	private String[] queue;
 	private int count;
 	private int front;
-	
+
 	public ArrayStringQueue(int initialCapacity) {
 		queue = new String[initialCapacity];
 		count = 0;
 		front = 0;
 	}
+
 	public ArrayStringQueue() {
 		queue = new String[DEAFAUL_CAPACITY];
 		count = 0;
 		front = 0;
-	}
-	public void expandCapacity() {
-		String[] newCapacity = new String[queue.length*2];
-	
-		for(int i = front; i<(front + count); i++) 
-			newCapacity[i] = queue[i];
-			queue = newCapacity;
-		
 	}
 
 	@Override
@@ -31,10 +24,8 @@ public class ArrayStringQueue implements StringQueueADT{
 		if (count < queue.length) {
 			queue[front + count] = element;
 			count++;
-		} else {
+		} else
 			expandCapacity();
-		}
-		
 	}
 
 	@Override
@@ -45,18 +36,17 @@ public class ArrayStringQueue implements StringQueueADT{
 			count--;
 			front++;
 			return result;
-		} else {
+		} else
 			throw new IllegalStateException("Queue is empty");
-		}
+
 	}
 
 	@Override
 	public String first() {
-		if (queue[front] != null) {
+		if (queue[front] != null)
 			return queue[front];
-		} else {
+		else
 			throw new IllegalStateException("Queue is empty");
-		}
 
 	}
 
@@ -70,26 +60,33 @@ public class ArrayStringQueue implements StringQueueADT{
 
 	@Override
 	public boolean isEmpty() {
-		if (queue[front] == null) {
+		if (queue[front] == null)
 			return true;
-		} else {
+		else
 			return false;
-		}
+
 	}
 
 	@Override
 	public int size() {
 		return count;
 	}
+
 	public String toString() {
 		String result = "{";
-		
-		for(int i=front;i<(front+count);i++) 
+
+		for (int i = front; i < (front + count); i++)
 			result += queue[i] + ", ";
-		
+
 		return result + "}";
 	}
 
-	
+	private void expandCapacity() {
+		String[] newCapacity = new String[queue.length * 2];
+
+		for (int i = front; i < (front + count); i++)
+			newCapacity[i] = queue[i];
+		queue = newCapacity;
+	}
 
 }
