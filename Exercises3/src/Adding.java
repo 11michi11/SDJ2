@@ -1,6 +1,3 @@
-import java.time.LocalDateTime;
-import java.util.Arrays;
-
 public class Adding implements Runnable {
 
 	private String id;
@@ -20,6 +17,7 @@ public class Adding implements Runnable {
 		try {
 			Thread.sleep(sleepTime);
 		} catch (InterruptedException e) {
+
 		}
 	}
 
