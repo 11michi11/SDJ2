@@ -11,7 +11,6 @@ public class Test {
 		Thread t1 = new Thread(z);
 		t1.start();
 		
-		
 		for(int i=0;i<50;i++)
 			System.out.println("MAIN");
 	}
