@@ -4,7 +4,7 @@ public class UDPClient {
 
 	public static void main(String[] args) throws IOException{
 		final int PORT = 2910;
-		final String HOST = "25.88.12.46";
+		final String HOST = "localhost";
 		
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		DatagramSocket clientSocket = new DatagramSocket();
