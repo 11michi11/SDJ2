@@ -14,7 +14,7 @@ public class BurgerbarEmployee implements Runnable{
 	public void run() {
 		while(true) {
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 				burgerbar.makeBurger(name);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
