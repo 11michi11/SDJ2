@@ -37,7 +37,7 @@ public class Client {
 	public static void main(String[] args) {
 		Client client = new Client("Dupa");
 		client.startConnection("25.0.70.31" , 2910);
-
+		
 	}
 
 }
