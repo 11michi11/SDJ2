@@ -1,3 +1,4 @@
+package cd.domain.model;
 
 
 public class Time
