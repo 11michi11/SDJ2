@@ -1,5 +1,7 @@
 package flyweight.star;
 
+import java.util.Calendar;
+
 public class Person {
 	private String name;
 	private AbstractStarSign starSign;
@@ -19,5 +21,9 @@ public class Person {
 
 	public String toString() {
 		return name + ", " + starSign;
+	}
+	
+	public void setStarSign(String name, Calendar birthday, String location) {
+		starSign = StarSignFactory.getStarSign(name, birthday, location);
 	}
 }
