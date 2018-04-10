@@ -5,7 +5,7 @@ import domain.mediator.TaskListModelManager;
 import view.TaskListConsole;
 import view.TaskListView;
 
-public class Main {
+public class ServerMain {
 	
 	public static void main(String[] args) {
 		TaskListModel model = new TaskListModelManager();
@@ -13,5 +13,6 @@ public class Main {
 		TaskListController controller = new TaskListController(model, view);
 		view.startView(controller);
 	}
+	
 	
 }
