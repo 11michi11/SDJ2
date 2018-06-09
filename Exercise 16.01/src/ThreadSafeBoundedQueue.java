@@ -9,7 +9,6 @@ public class ThreadSafeBoundedQueue<T> implements QueueADT<T>{
 	@Override
 	public synchronized void enqueue(T element) {
 		queue.enqueue(element);
-		
 	}
 	@Override
 	public synchronized T dequeue() {
@@ -43,7 +42,6 @@ public class ThreadSafeBoundedQueue<T> implements QueueADT<T>{
 	
 	public synchronized String toString() {
 		return queue.toString();
-
 	}
 
 	

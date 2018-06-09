@@ -1,19 +1,15 @@
 
 public interface QueueADT<T> {
 
-	public void enqueue(T element);
+    public void enqueue(T element);
 
-	public T dequeue(int index);
+    public T dequeue(int index);
 
-	public int indexOf(T element);
+    public int indexOf(T element);
 
-	public boolean isEmpty();
+    public boolean isEmpty();
 
-	public boolean isFull();
+    public boolean isFull();
 
-	public int size();
-
-	
-
-	
+    public int size();
 }
