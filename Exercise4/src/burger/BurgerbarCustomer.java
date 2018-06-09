@@ -19,7 +19,6 @@ public class BurgerbarCustomer implements Runnable{
 				Thread.sleep(2000);
 				burgerbar.eatBurger(name);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}

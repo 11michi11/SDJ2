@@ -2,7 +2,50 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CookieJar.iml" filepath="$PROJECT_DIR$/CookieJar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CDGUI (Swing).iml" filepath="$PROJECT_DIR$/CDGUI (Swing).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chat-Version0.iml" filepath="$PROJECT_DIR$/Chat-Version0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code Recommenders Snippets.iml" filepath="$PROJECT_DIR$/Code Recommenders Snippets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Excercise 11.01.iml" filepath="$PROJECT_DIR$/Excercise 11.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 1.iml" filepath="$PROJECT_DIR$/Exercise 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 10.iml" filepath="$PROJECT_DIR$/Exercise 10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 11.02.iml" filepath="$PROJECT_DIR$/Exercise 11.02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 11.03.iml" filepath="$PROJECT_DIR$/Exercise 11.03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 11.04.iml" filepath="$PROJECT_DIR$/Exercise 11.04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 12.iml" filepath="$PROJECT_DIR$/Exercise 12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 12.01.iml" filepath="$PROJECT_DIR$/Exercise 12.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 12.02.iml" filepath="$PROJECT_DIR$/Exercise 12.02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 12.04.iml" filepath="$PROJECT_DIR$/Exercise 12.04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 12.05.iml" filepath="$PROJECT_DIR$/Exercise 12.05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 14.01.iml" filepath="$PROJECT_DIR$/Exercise 14.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 14.02.iml" filepath="$PROJECT_DIR$/Exercise 14.02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 14.03.iml" filepath="$PROJECT_DIR$/Exercise 14.03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 15.iml" filepath="$PROJECT_DIR$/Exercise 15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 16.01.iml" filepath="$PROJECT_DIR$/Exercise 16.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 16.02.iml" filepath="$PROJECT_DIR$/Exercise 16.02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 16.03.iml" filepath="$PROJECT_DIR$/Exercise 16.03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 16.04.iml" filepath="$PROJECT_DIR$/Exercise 16.04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 2.iml" filepath="$PROJECT_DIR$/Exercise 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 3.iml" filepath="$PROJECT_DIR$/Exercise 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 4.iml" filepath="$PROJECT_DIR$/Exercise 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 4(Miska).iml" filepath="$PROJECT_DIR$/Exercise 4(Miska).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 5.iml" filepath="$PROJECT_DIR$/Exercise 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 5(Miska).iml" filepath="$PROJECT_DIR$/Exercise 5(Miska).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 6.iml" filepath="$PROJECT_DIR$/Exercise 6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 6(Miska).iml" filepath="$PROJECT_DIR$/Exercise 6(Miska).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 7.iml" filepath="$PROJECT_DIR$/Exercise 7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise15.iml" filepath="$PROJECT_DIR$/Exercise15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise15.6.iml" filepath="$PROJECT_DIR$/Exercise15.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise15TaksList.iml" filepath="$PROJECT_DIR$/Exercise15TaksList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFxDemo.iml" filepath="$PROJECT_DIR$/JavaFxDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer.iml" filepath="$PROJECT_DIR$/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simple chat.iml" filepath="$PROJECT_DIR$/Simple chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaskList-MVC-SocketClient.iml" filepath="$PROJECT_DIR$/TaskList-MVC-SocketClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaskList-MVC-SocketServer.iml" filepath="$PROJECT_DIR$/TaskList-MVC-SocketServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TemperatureConversion-JavaFX-NoTimer.iml" filepath="$PROJECT_DIR$/TemperatureConversion-JavaFX-NoTimer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test.iml" filepath="$PROJECT_DIR$/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WS.iml" filepath="$PROJECT_DIR$/WS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WS database connection.iml" filepath="$PROJECT_DIR$/WS database connection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshop-chat.iml" filepath="$PROJECT_DIR$/Workshop-chat.iml" />
     </modules>
   </component>
 </project>

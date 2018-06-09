@@ -7,7 +7,7 @@ public class MainBurgerbar {
 	Burgerbar burgerbar = new Burgerbar(50);
 	BurgerBarEmployee employeeOne = new BurgerBarEmployee("Adam", burgerbar);
 	BurgerBarEmployee employeeTwo = new BurgerBarEmployee("Matej", burgerbar);
-	BurgerBarCustomer customerOne = new BurgerBarCustomer(2, "Miška", burgerbar);
+	BurgerBarCustomer customerOne = new BurgerBarCustomer(2, "Miska", burgerbar);
 	BurgerBarCustomer customerTwo = new BurgerBarCustomer(5, "Michal", burgerbar);
 	BurgerBarCustomer customerThree = new BurgerBarCustomer(3, "Timotej", burgerbar);
 	BurgerBarCustomer customerFour = new BurgerBarCustomer(4, "Oliver", burgerbar);
